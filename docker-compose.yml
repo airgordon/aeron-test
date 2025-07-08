@@ -1,0 +1,8 @@
+
+services:
+   my-aeron-server:
+      build: ./my-aeron-server
+      shm_size: '128mb'
+      ports:
+         - "20123:20123/udp"
+
